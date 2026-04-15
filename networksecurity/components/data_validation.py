@@ -72,7 +72,7 @@ class DataValidation:
         except Exception as e:
             raise NetworkSecurityException(e, sys)
     
-    def inititate_data_validation(self):
+    def initiate_data_validation(self):
         try:
             # read the train and test files
             train_file_path = self.data_ingestion_artifact.trained_filepath

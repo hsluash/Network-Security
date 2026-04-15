@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
         data_validation_config = DataValidationConfig(training_pipeline_config)
         data_validation = DataValidation(data_ingestion_artifact, data_validation_config)
-        data_validation_artifact = data_validation.inititate_data_validation()
+        data_validation_artifact = data_validation.initiate_data_validation()
         logging.info("Data Validation Completed")
 
         data_transformation_config = DataTransformationConfig(training_pipeline_config)
