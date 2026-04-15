@@ -7,10 +7,13 @@ requires-python = ">=3.12"
 dependencies = [
     "certifi>=2026.2.25",
     "dill>=0.4.1",
-    "numpy>=2.4.4",
-    "pandas>=3.0.2",
+    "mlflow==2.9.2",
+    "numpy<2",
+    "pandas<3",
+    "protobuf==3.20.3",
     "pyaml>=26.2.1",
     "pymongo[srv]==3.12",
     "python-dotenv>=1.2.2",
     "scikit-learn>=1.8.0",
+    "setuptools==68.2.2",
 ]

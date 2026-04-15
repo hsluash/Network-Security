@@ -1,9 +1,12 @@
 python-dotenv
-pandas
-numpy
+pandas<3
+numpy<2
 pymongo[srv]==3.12
 certifi
 scikit-learn
 pyaml
+mlflow==2.9.2
+protobuf==3.20.3
+setuptools==68.2.2
 
 #-e .
