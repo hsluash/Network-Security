@@ -12,3 +12,4 @@ wheels/
 .env
 
 test_mongodb.py
+useful.txt
