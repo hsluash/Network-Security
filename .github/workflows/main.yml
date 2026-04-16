@@ -11,12 +11,13 @@ jobs:
     integration:
         name: Continuous Integration
         runs-on: ubuntu-latest
+        
         steps:
             - name: Checkout Code
-            uses: actions/checkout@v3
+              uses: actions/checkout@v3
 
             - name: Lint code
-            run: echo "Linting repository"
+              run: echo "Linting repository"
 
             - name: Run unit tests
-            run: echo "Running unit tests"
+              run: echo "Running unit tests"
